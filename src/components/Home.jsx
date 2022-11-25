@@ -28,6 +28,7 @@ function Home() {
           m="auto"
           w={'fit-content'}
           borderBottom={'2px solid'}
+      
         >
           Services
         </Heading>
@@ -38,7 +39,12 @@ function Home() {
           direction={['column', 'row']}
         >
           <Image src={img5} h={['40', '400']} filter={'hue-rotate(-130deg)'} />
-          <Text letterSpacing={'widest'} lineHeight={'190%'} p={["4", "16"]} textAlign={"center"}>
+          <Text
+            letterSpacing={'widest'}
+            lineHeight={'190%'}
+            p={['4', '16']}
+            textAlign={'center'}
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo
             tempora deleniti quod, est eos veniam autem asperiores rem, nam
             laudantium ut, similique ducimus amet sequi et voluptas iusto rerum
