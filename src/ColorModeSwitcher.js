@@ -9,6 +9,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
 
   return (
     <IconButton
+      zIndex={"overlay"}
       size="md"
       fontSize="lg"
       aria-label={`Switch to ${text} mode`}
